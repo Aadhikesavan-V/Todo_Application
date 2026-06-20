@@ -1,16 +1,104 @@
-# React + Vite
+# 📝 Todo Application ReactJS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive Todo Application built using ReactJS. This application helps users manage their daily tasks efficiently by allowing them to add, update, complete, and delete tasks.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- ➕ Add new tasks
+- ✏️ Edit existing tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 📱 Responsive design
+- ⚡ Fast performance with ReactJS and Vite
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- ReactJS
+- JavaScript (ES6+)
+- HTML5
+- CSS3
+- Vite
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+Todo-Application-ReactJs/
+│
+├── public/
+├── src/
+│   ├── Components/
+│   │   ├── Header.jsx
+│   │   ├── Content.jsx
+│   │   └── Footer.jsx
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Aadhikesavan-V/Todo_Application.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd Todo_Application
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+## 🎯 Usage
+
+1. Enter a task in the input field.
+2. Click the Add button.
+3. Mark tasks as completed when finished.
+4. Edit tasks whenever required.
+5. Delete tasks that are no longer needed.
+
+## 📸 Screenshots
+
+Add screenshots of your application here.
+
+## 🌟 Future Enhancements
+
+- Local Storage Support
+- Dark Mode
+- Task Categories
+- Due Dates and Reminders
+- Backend Integration
+
+## 👨‍💻 Author
+
+**Aadhikesavan V**
+
+- GitHub: https://github.com/Aadhikesavan-V
+- LinkedIn: Add Your LinkedIn Profile
+
+## 📜 License
+
+This project is open source and available under the MIT License.
