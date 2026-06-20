@@ -80,10 +80,6 @@ npm run build
 4. Edit tasks whenever required.
 5. Delete tasks that are no longer needed.
 
-## 📸 Screenshots
-
-Add screenshots of your application here.
-
 ## 🌟 Future Enhancements
 
 - Local Storage Support
